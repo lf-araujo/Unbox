@@ -1,5 +1,8 @@
 import PackageDescription
 
 let package = Package(
-    name: "Unbox"
+    name: "Unbox",
+    targets: [ 
+        .name: "Unbox"
+    ]
 )
