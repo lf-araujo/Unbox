@@ -3,6 +3,6 @@ import PackageDescription
 let package = Package(
     name: "Unbox",
     targets: [ 
-        .name: "Unbox"
+        .target(name: "Unbox")
     ]
 )
